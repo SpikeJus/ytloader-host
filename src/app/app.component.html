@@ -1,0 +1,14 @@
+<h1>LOADING....</h1>
+
+<div class="container">
+  <router-outlet>
+    <!-- <div *ngIf="messages">
+      <div *ngFor="let message of messages | async">
+        {{message.message}}
+      </div>
+    </div> -->
+
+    <input class="URL-input" placeholder="Video URL e.g. https://www.youtube.com/watch?v=MtN1YnoL46Q" #urlInput>
+    <button class="convert-button" (click)="convert(urlInput)">Convert</button>
+  </router-outlet>
+</div>
